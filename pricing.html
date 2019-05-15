@@ -20,127 +20,74 @@
 
 <body>
 
-  <!-- Navigation -->
-  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
-    <div class="container">
-      <a class="navbar-brand" href="index.html">Start Bootstrap</a>
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="about.html">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="services.html">Services</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownPortfolio" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Portfolio
-            </a>
-            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
-              <a class="dropdown-item" href="portfolio-1-col.html">1 Column Portfolio</a>
-              <a class="dropdown-item" href="portfolio-2-col.html">2 Column Portfolio</a>
-              <a class="dropdown-item" href="portfolio-3-col.html">3 Column Portfolio</a>
-              <a class="dropdown-item" href="portfolio-4-col.html">4 Column Portfolio</a>
-              <a class="dropdown-item" href="portfolio-item.html">Single Portfolio Item</a>
-            </div>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownBlog" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Blog
-            </a>
-            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">
-              <a class="dropdown-item" href="blog-home-1.html">Blog Home 1</a>
-              <a class="dropdown-item" href="blog-home-2.html">Blog Home 2</a>
-              <a class="dropdown-item" href="blog-post.html">Blog Post</a>
-            </div>
-          </li>
-          <li class="nav-item active dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownBlog" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Other Pages
-            </a>
-            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">
-              <a class="dropdown-item" href="full-width.html">Full Width Page</a>
-              <a class="dropdown-item" href="sidebar.html">Sidebar Page</a>
-              <a class="dropdown-item" href="faq.html">FAQ</a>
-              <a class="dropdown-item" href="404.html">404</a>
-              <a class="dropdown-item active" href="pricing.html">Pricing Table</a>
-            </div>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-
+<!-- Navigation -->
+<!--#include file="nav.html"-->
   <!-- Page Content -->
   <div class="container">
 
     <!-- Page Heading/Breadcrumbs -->
-    <h1 class="mt-4 mb-3">Pricing
-      <small>Subheading</small>
+    <h1 class="mt-4 mb-3">报价单
+      <small>pricing</small>
     </h1>
 
     <ol class="breadcrumb">
       <li class="breadcrumb-item">
-        <a href="index.html">Home</a>
+        <a href="index.html">首页</a>
       </li>
-      <li class="breadcrumb-item active">Pricing</li>
+      <li class="breadcrumb-item active">报价</li>
     </ol>
 
     <!-- Content Row -->
     <div class="row">
       <div class="col-lg-4 mb-4">
         <div class="card h-100">
-          <h3 class="card-header">Basic</h3>
+          <h3 class="card-header">标准模式</h3>
           <div class="card-body">
-            <div class="display-4">$19.99</div>
-            <div class="font-italic">per month</div>
+            <div class="display-4">200元</div>
+            <div class="font-italic">200元/人/年</div>
           </div>
           <ul class="list-group list-group-flush">
-            <li class="list-group-item">Cras justo odio</li>
-            <li class="list-group-item">Dapibus ac facilisis in</li>
-            <li class="list-group-item">Vestibulum at eros</li>
+
+            <li class="list-group-item">按人员付费为云报价的标准付费方式。</li>
+            <li class="list-group-item">首次缴费按照企业用户数量实际收取，无折扣。</li>
+            <li class="list-group-item">每添加一位新员工收取一次标准收费，即200元/人/年</li>
             <li class="list-group-item">
-              <a href="#" class="btn btn-primary">Sign Up!</a>
+              <!--<a href="#" class="btn btn-primary">Sign Up!</a>-->
+              您每添加一位成员，需付费一次。
             </li>
           </ul>
         </div>
       </div>
       <div class="col-lg-4 mb-4">
         <div class="card card-outline-primary h-100">
-          <h3 class="card-header bg-primary text-white">Plus</h3>
+          <h3 class="card-header bg-primary text-white">50团队(中小型企业)</h3>
           <div class="card-body">
-            <div class="display-4">$39.99</div>
-            <div class="font-italic">per month</div>
+            <div class="display-4">150元</div>
+            <div class="font-italic">150元/人/年</div>
           </div>
           <ul class="list-group list-group-flush">
-            <li class="list-group-item">Cras justo odio</li>
-            <li class="list-group-item">Dapibus ac facilisis in</li>
-            <li class="list-group-item">Vestibulum at eros</li>
+            <li class="list-group-item">首次缴纳50人费用，可终身享受此优惠方案。</li>
+            <li class="list-group-item">即使公司目前规模不足50人</li>
+            <li class="list-group-item">云报价会按照实际产生的人数计费</li>
             <li class="list-group-item">
-              <a href="#" class="btn btn-primary">Sign Up!</a>
+              一次选择，终身享受7.5折优惠。
             </li>
           </ul>
         </div>
       </div>
       <div class="col-lg-4 mb-4">
         <div class="card h-100">
-          <h3 class="card-header">Ultra</h3>
+          <h3 class="card-header">100团队(大中型企业)</h3>
           <div class="card-body">
-            <div class="display-4">$159.99</div>
-            <div class="font-italic">per month</div>
+            <div class="display-4">100元</div>
+            <div class="font-italic">100元/人/年</div>
           </div>
           <ul class="list-group list-group-flush">
-            <li class="list-group-item">Cras justo odio</li>
-            <li class="list-group-item">Dapibus ac facilisis in</li>
-            <li class="list-group-item">Vestibulum at eros</li>
+            <li class="list-group-item">首次缴纳100人费用，可终身享受此优惠方案。</li>
+            <li class="list-group-item">即使公司目前规模不足100人</li>
+            <li class="list-group-item">云报价会按照实际产生的人数计费</li>
             <li class="list-group-item">
-              <a href="#" class="btn btn-primary">Sign Up!</a>
+              一次选择，终身享受5折优惠。
             </li>
           </ul>
         </div>
@@ -152,12 +99,7 @@
   <!-- /.container -->
 
   <!-- Footer -->
-  <footer class="py-5 bg-dark">
-    <div class="container">
-      <p class="m-0 text-center text-white">Copyright &copy; Your Website 2019</p>
-    </div>
-    <!-- /.container -->
-  </footer>
+<!--#include file="footer.html"-->
 
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
